@@ -1,0 +1,42 @@
+html {
+    background-color: bisque;
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color:black;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+    font-weight: bold;
+    color:brown;
+    text-align: center;
+}
+
+img {
+    border: 5px solid #333
+}
+
+th {
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.vasak, .parem {
+    padding: 20px;
+}
+
+.tabel, .tabel th, .tabel td, .tabel tr {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
